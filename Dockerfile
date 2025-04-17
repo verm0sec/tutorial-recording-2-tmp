@@ -11,7 +11,7 @@ WORKDIR /app
 COPY . .
 
 # Set an environment variable named APP_ENV and set its value to 'production'.
-ENV APP_ENV production
+ENV APP_ENV=production
 
 # Make the app.py script executable.
 RUN chmod +x app.py
